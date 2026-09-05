@@ -11,10 +11,15 @@
 </head>
 <body>
 	<nav>
-		<a href="#info">Información</a>
-		<a href="#recom">Recomendaciones</a>
-		<a href="#cronograma">Cronograma</a>
-		<a href="#mapa">Mapa</a>
+		<div class="container">
+			<a>Nombre fonda</a>
+			<div class="d-flex gap-2">
+				<a class="btn btn-outline-dark btn-sm" href="#info">Información</a>
+				<a class="btn btn-outline-dark btn-sm" href="#recom">Recomendaciones</a>
+				<a class="btn btn-outline-dark btn-sm" href="#cronograma">Cronograma</a>
+				<a class="btn btn-outline-dark btn-sm" href="#mapa">Mapa</a>
+			</div>
+		</div>
 	</nav>
 	
 	<header>
