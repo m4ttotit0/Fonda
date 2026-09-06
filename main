@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 
+<!-- Colores rapidos: primary (azul), secondary (gris), success (verde), danger (rojo), warning (amarillo), info (celeste(?)), light (blanco/claro), dark (negro/oscuro)-->
+
 
 <head>
 	<meta charset="utf-8">
@@ -9,8 +11,14 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 	<style>
+		header {
+			background-color: #679CBC;
+
+		}
+
 		body {
 			background-color: #FEF1D5;
+			color: #FEF1D5;
 
 		}
 		nav {
@@ -43,9 +51,15 @@
 			</div>
 		</div>
 	</nav>
+
+	<!-- Hero -->
+	<header class="text-center py-5 shadow">
+		<div class="container py-4">
+      			<h1 class="display-3 fw-bold">Título del hero(?)</h1>
+      			<p class="lead my-3">¿Por qué se llama hero? que nombre más raro</p>
+      			<a href="#info" class="btn btn-lg btn-outline-light fw-bold mt-2">Más información</a>
+    		</div>
 	
-	<header>
-  
  	</header>
 
 	<section id="info">
