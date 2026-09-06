@@ -35,6 +35,26 @@
 		a:hover {
   			color: #C11720;
 		}
+
+		#cronograma {
+		    color: #0C324A;
+		}
+
+		#cronograma thead tr {
+			--bs-table-bg: #C11720;
+			--bs-table-color: #FEF1D5;
+		}
+
+		#cronograma tbody tr:nth-child(odd) {
+			
+			--bs-table-bg: #85AFC9;
+			--bs-table-color: #0C324A;
+		}
+
+		#cronograma tbody tr:nth-child(even) {
+			--bs-table-bg: #E0EBF1;
+			--bs-table-color: #0C324A;
+		}
 		
 	</style>
 
@@ -68,8 +88,65 @@
   	<section id="recom">
   	</section>
 
-  	<section id="cronograma">
-     	</section>
+  	<section id="cronograma" class="py-5">
+
+		<div class="container">
+			<div class="row">
+			<div class="col-12 text-center mb-4">
+				<h2 class="fw-bold">Cronograma</h2>
+				<p class="lead">Así se vivirá el 18 de septiembre</p>
+			</div>
+			</div>
+
+			<div class="row justify-content-center">
+			<div class="col-12 col-lg-10">
+				<div class="table-responsive">
+				<table class="table table-hover align-middle">
+					<thead>
+					<tr>
+						<th scope="col">Hora</th>
+						<th scope="col">Actividad</th>
+						<th scope="col">Lugar</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr>
+						<th scope="row">12:00</th>
+						<td>Apertura de puertas</td>
+						<td>Entrada principal</td>
+					</tr>
+					<tr>
+						<th scope="row">13:00</th>
+						<td>Venta de comida típica</td>
+						<td>Patio de comidas</td>
+					</tr>
+					<tr>
+						<th scope="row">15:30</th>
+						<td> Juegos infantiles</td>
+						<td>Patio de juegos</td>
+					</tr>
+					<tr>
+						<th scope="row">18:00</th>
+						<td>Cueca en vivo</td>
+						<td> Escenario</td>
+					</tr>
+					<tr>
+						<th scope="row">20:00</th>
+						<td>Show musical</td>
+						<td>Escenario</td>
+					</tr>
+					<tr>
+						<th scope="row">23:00</th>
+						<td>Cierre de la jornada</td>
+						<td>Entrada principal</td>
+					</tr>
+					</tbody>
+				</table>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
 
   	<section id="mapa">
       	</section>
