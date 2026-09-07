@@ -55,6 +55,11 @@
 			--bs-table-bg: #E0EBF1;
 			--bs-table-color: #0C324A;
 		}
+
+		.imagen-card {
+			height: 300px;
+			object-fit: cover;
+		}
 		
 	</style>
 
@@ -82,10 +87,72 @@
 	
  	</header>
 
-	<section id="info">
-     	</section>
+	<section id="info" class="py-5">
+		<div class="container text-center">
+			<div class="p-4 rounded" style="background-color: #e8c479e0;">
+				<div class="row align-items-center">
+					<div class="col-md-6">
+						<img src="imgs/fonda1.webp" class="img-fluid" alt="Fonda dieciochera">
+					</div>
+					<div class="col-md-6 text-dark text-start">
+						<h2>¡Bienvenidos a la fonda más vi'a de estas fiestas patrias!</h2>
+						Esta junta de vecinos ha organizado múltiples
+						actividades para la comunidad, incluyendo: juegos infantiles, un show de cueca que estará abierto para la participación
+						del público, un show musical con múltiples artistas locales y, por supuesto, la venta de ricas comidas típicas que
+						los tendrán borrachos de nacionalismo. 
+						<ul class="ps-20">
+							<li>Lugar: parque Sindempart</li>
+							<li>Fecha: 18, 19 y 20 de Septiembre</li>
+							<li>Entrada: $6.000</li>
+							<li>Horario: 12:00 a 13:00 horas</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 
-  	<section id="recom">
+    </section>
+
+  	<section id="recom" class="py-5">
+		<div class="container px-4">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card">
+						<img src="imgs/fonda2.jpg" class="card-img-top imagen-card" alt="Juegos infantiles">
+						<div class="card-body">
+							<h5 class="card-title">Juegos infantiles</h5>
+							<p class="card-text">
+								Juegos típicos chilenos para todas las edades.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card">
+						<img src="imgs/fonda3.jpg" class="card-img-top imagen-card" alt="Cueca en vivo">
+						<div class="card-body">
+							<h5 class="card-title">Cueca en vivo</h5>
+							<p class="card-text">
+								Eventos de cueca libre en el escenario.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card">
+						<img src="imgs/fonda4.jpg" class="card-img-top imagen-card" alt="Comida típica">
+						<div class="card-body">
+							<h5 class="card-title">Comidas típicas a la venta</h5>
+							<p class="card-text">
+								Stands the comida típica chilena de inicio a fin.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
   	</section>
 
   	<section id="cronograma" class="py-5">
