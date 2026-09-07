@@ -36,6 +36,10 @@
   			color: #C11720;
 		}
 
+		#mapa{
+			color: #0C324A;
+		}
+
 		#cronograma {
 		    color: #0C324A;
 		}
@@ -101,7 +105,7 @@
 						del público, un show musical con múltiples artistas locales y, por supuesto, la venta de ricas comidas típicas que
 						los tendrán borrachos de nacionalismo. 
 						<ul class="ps-20">
-							<li>Lugar: parque Sindempart</li>
+							<li>Lugar: Escuela de Ingenieria, campús guayacán UCN</li>
 							<li>Fecha: 18, 19 y 20 de Septiembre</li>
 							<li>Entrada: $6.000</li>
 							<li>Horario: 12:00 a 13:00 horas</li>
@@ -216,6 +220,17 @@
 	</section>
 
   	<section id="mapa">
+		<div class="container">
+		<h2 class="text-center fw-bold mb-4">Ubicación</h2>
+			<div class="ratio ratio-21x9 shadow rounded overflow-hidden">
+				<iframe 
+  				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2596.894788986526!2d-71.35190889012861!3d-29.9643221274589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9691c96c7da69653%3A0x5d0a67e0f7d9d617!2sEscuela%20de%20Ingenier%C3%ADa%20UCN%20Coquimbo!5e1!3m2!1ses-419!2scl!4v1788815775993!5m2!1ses-419!2scl"  
+				allowfullscreen="" 
+				loading="lazy"> 
+				</iframe>
+
+			</div>
+		</div>
       	</section>
 
 	<footer class="text-center py-4">
