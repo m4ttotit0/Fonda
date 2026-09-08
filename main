@@ -79,7 +79,7 @@
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
 		<div class="container">
-			<a class="navbar-brand fw-bold fs-3">Nombre fonda</a>
+			<a class="navbar-brand fw-bold fs-3">Fonda... mentos de computación</a>
 			<div class="d-flex gap-4">
 				<a class="btn btn-outline-light btn-sm" href="#info">Información</a>
 				<a class="btn btn-outline-light btn-sm" href="#recom">Recomendaciones</a>
@@ -252,7 +252,7 @@
 
 	<footer class="text-center py-4">
 		<div class="container">
-			<p class="mb-2">Esto es un footer 2026</p>
+			<p class="mb-2">Bienvenidos a los fondamientos de computación de la ucn</p>
 			<div class="d-flex justify-content-center gap-3">
 				<a href="#info" class="text-decoration-none small">Información</a>
         			<span class="text-muted">|</span>
