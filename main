@@ -12,7 +12,11 @@
 
 	<style>
 		header {
-			background-color: #679CBC;
+			background-image: url("imgs/fonda5.jpg");
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			min-height: 500px;
 
 		}
 
@@ -82,14 +86,23 @@
 	</nav>
 
 	<!-- Hero -->
-	<header class="text-center py-5 shadow">
-		<div class="container py-4">
-      			<h1 class="display-3 fw-bold">Título del hero(?)</h1>
-      			<p class="lead my-3">¿Por qué se llama hero? que nombre más raro</p>
-      			<a href="#info" class="btn btn-lg btn-outline-light fw-bold mt-2">Más información</a>
-    		</div>
-	
- 	</header>
+	<header class="text-center py-5 shadow d-flex align-items-center">
+		<div class="container py-5">
+			<h1 class="display-3 fw-bold text-light">
+				¡Viva Chile en nuestra Fonda!
+			</h1>
+			<p class="lead my-3 text-light">
+				Celebra estas Fiestas Patrias con música, cueca, juegos y comida típica.
+			</p>
+			<p class="fs-5 fw-bold text-light">
+				18, 19 y 20 de septiembre
+			</p>
+			<a href="#info" class="btn btn-lg btn-light fw-bold mt-2">
+				Conoce el evento
+			</a>
+
+		</div>
+	</header>
 
 	<section id="info" class="py-5">
 		<div class="container text-center">
