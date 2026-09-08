@@ -17,7 +17,11 @@
 			background-position: center;
 			background-repeat: no-repeat;
 			min-height: 500px;
+		}
 
+		header h1,
+		header p {
+			text-shadow: 2px 2px 6px #000000;
 		}
 
 		body {
@@ -91,7 +95,7 @@
 			<h1 class="display-3 fw-bold text-light">
 				¡Viva Chile en nuestra Fonda!
 			</h1>
-			<p class="lead my-3 text-light">
+			<p class="lead my-3 text-light fw-bold">
 				Celebra estas Fiestas Patrias con música, cueca, juegos y comida típica.
 			</p>
 			<p class="fs-5 fw-bold text-light">
@@ -178,7 +182,7 @@
 			<div class="row">
 			<div class="col-12 text-center mb-4">
 				<h2 class="fw-bold">Cronograma</h2>
-				<p class="lead">Así se vivirá el 18 de septiembre</p>
+				<p class="lead">Así viviremos estas fiestas</p>
 			</div>
 			</div>
 

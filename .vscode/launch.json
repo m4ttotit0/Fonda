@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open main",
-            "file": "c:\\Users\\Nia\\Fonda\\main"
+            "c:\\Users\\Nia\\Fonda\\main"
         }
     ]
 }
